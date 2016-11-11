@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="34d6a58a-ac04-4e37-a316-b35eaf81624a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:52549/WcfCrudUser/Repositories/UserRepository.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="UserRepository.wsdl" MetadataType="Wsdl" ID="c76b1c6d-db6f-4da1-9323-bccf85555cbc" SourceId="1" SourceUrl="http://localhost:52549/WcfCrudUser/Repositories/UserRepository.svc?wsdl" />
+    <MetadataFile FileName="UserRepository2.xsd" MetadataType="Schema" ID="6e76e3e7-afaa-4f50-96d3-5e0f6a9b3111" SourceId="1" SourceUrl="http://localhost:52549/WcfCrudUser/Repositories/UserRepository.svc?xsd=xsd2" />
+    <MetadataFile FileName="UserRepository1.xsd" MetadataType="Schema" ID="2749c5b0-f4e1-444e-8555-483bd4bba211" SourceId="1" SourceUrl="http://localhost:52549/WcfCrudUser/Repositories/UserRepository.svc?xsd=xsd1" />
+    <MetadataFile FileName="UserRepository.disco" MetadataType="Disco" ID="1a79c923-ef09-48c7-8929-f9245b33c2ce" SourceId="1" SourceUrl="http://localhost:52549/WcfCrudUser/Repositories/UserRepository.svc?disco" />
+    <MetadataFile FileName="UserRepository.xsd" MetadataType="Schema" ID="3163c51f-79e1-4f7b-9835-a92e1b9c464f" SourceId="1" SourceUrl="http://localhost:52549/WcfCrudUser/Repositories/UserRepository.svc?xsd=xsd0" />
+    <MetadataFile FileName="UserRepository3.xsd" MetadataType="Schema" ID="d1be154c-1032-48bb-82a0-dca5538885e3" SourceId="1" SourceUrl="http://localhost:52549/WcfCrudUser/Repositories/UserRepository.svc?xsd=xsd3" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
